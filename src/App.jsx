@@ -1511,7 +1511,7 @@ function HomePage({ setPage }) {
       <div style={{ padding: '32px 24px 40px', background: '#fff', maxWidth: '1020px', margin: '0 auto' }}>
         <h2 style={{ fontFamily: G.head, fontSize: '24px', fontWeight: 700, color: G.text, marginBottom: '16px' }}>Brooklyn Pizza Guides</h2>
         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(260px, 1fr))', gap: '12px' }}>
-          {ARTICLES.slice(0, 4).map(a => (
+          {ARTICLES.slice(0, 6).map(a => (
             <div
               key={a.id}
               onClick={() => setPage('guides/' + a.id)}
